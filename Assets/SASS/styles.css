@@ -1,6 +1,7 @@
 body {
-  background-image: url("../img/espacioazul.jpg");
-  background-size: 100%;
+  background-color: #06070c;
+  background-image: url("../img/Stars/6.png");
+  background-size: contain;
   background-attachment: fixed;
   color: black;
   position: relative;
@@ -67,7 +68,7 @@ html body div.container-fluid div.row div.col-3 nav#menu ul.nav.nav-pills.flex-c
 .central-section div {
   height: 650px;
   color: white;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -80,6 +81,10 @@ html body div.container-fluid div.row div.col-3 nav#menu ul.nav.nav-pills.flex-c
   align-self: center;
   font-size: 25px;
   font-style: italic;
+}
+
+#hola {
+  text-shadow: 2px 2px 3px #555555, 2px 2px 4px #555555, 0px 0px 4px blue, 4px 4px 7px goldenrod, 2px 2px 4px black;
 }
 
 .central-section__item {
@@ -105,7 +110,7 @@ html body div.container-fluid div.row div.col-3 nav#menu ul.nav.nav-pills.flex-c
   flex-direction: column;
 }
 #proyectos article:hover {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.7);
   box-shadow: 2px 2px 8px black;
   border-radius: 10px;
 }
@@ -223,7 +228,7 @@ html body div.container-fluid div.row div.col-3 nav#menu ul.nav.nav-pills.flex-c
     padding-top: 0px;
     height: auto;
     margin-top: -40px;
-    position: fixed;
+    position: fixed, absolute;
   }
 
   .menu__container {
@@ -277,7 +282,11 @@ html body div.container-fluid div.row div.col-3 nav#menu ul.nav.nav-pills.flex-c
   }
 
   #hola {
-    background-color: black;
+    background-color: #15192c;
+    background-image: url("../img/Stars/6.png");
+    background-size: contain;
+    color: white;
+    text-shadow: 2px 2px 3px #555555, 2px 2px 4px #555555, 0px 0px 4px blue, 4px 4px 7px goldenrod, 2px 2px 6px black;
   }
 
   #proyectos {
