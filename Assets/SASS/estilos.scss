@@ -167,6 +167,21 @@ html body div.container-fluid div.row div.col-3 nav#menu ul.nav.nav-pills.flex-c
     a:active {
         box-shadow: 2px 2px 7px black inset;
     }
+    .button{
+        display: flex;
+        width: 100px;
+        height: 30px;
+        margin-bottom: 5px;
+        justify-content: center;
+        a{
+            width: 100%;
+            text-align: center;
+            padding-top: 0;
+            padding-bottom: 0;
+            line-height: 22px;
+            justify-content: center;
+        }
+    }
 }
 
 
@@ -245,6 +260,9 @@ html body div.container-fluid div.row div.col-3 nav#menu ul.nav.nav-pills.flex-c
 /* .sidebar-wrapper{
     position: fixed;
 } */
+
+
+/* Inicio de mediaquerys */
 
 @media(max-width:1120px){
     #proyectos{
