@@ -149,14 +149,21 @@ html body div.container-fluid div.row div.col-3 nav#menu ul.nav.nav-pills.flex-c
 #proyectos a:active {
   box-shadow: 2px 2px 7px black inset;
 }
-#proyectos .button {
+#proyectos span {
   display: flex;
-  width: 100px;
+  margin: 0 auto;
+  width: 50%;
+  justify-content: space-around;
+}
+#proyectos span .button {
+  display: flex;
+  width: 95px;
   height: 30px;
   margin-bottom: 5px;
   justify-content: center;
+  padding-top: 1px;
 }
-#proyectos .button a {
+#proyectos span .button a {
   width: 100%;
   text-align: center;
   padding-top: 0;
