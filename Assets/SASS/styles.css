@@ -172,6 +172,10 @@ html body div.container-fluid div.row div.col-3 nav#menu ul.nav.nav-pills.flex-c
   justify-content: center;
 }
 
+.central-section__item--3 embed {
+  margin-top: 3em;
+}
+
 #conversemos #iconos {
   background-color: transparent;
   height: auto;
